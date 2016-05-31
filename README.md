@@ -114,6 +114,16 @@ Unter Umständen bleibt die Servicemeldung "Konfigurationsdaten stehen zur Über
   
   [EQ3_SUPPORT-5] Stabilität CCU2 Netzwerk verbessert
 
+2.15.7
+- Erweiterungen / Verbesserungen
+
+  EULA angepasst 
+
+2.15.6
+- Erweiterungen / Verbesserungen
+
+  Erweiterungen für eine Rückmigration von einer CCU 2 Firmware Version 2.17.X
+
 2.15.5
 - Erweiterungen / Verbesserungen
   
