@@ -3,6 +3,33 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 
 # Changelog
 ---------
+**2.21.10**
+- Erweiterungen / Verbesserungen
+
+  [HMCCU2-1113] Beim HmIP-SMI ist es nun möglich, die „Bewegung erkannt“ Zeit einzustellen.
+
+  [HMCCU2-1060] Für HmIP-Geräte steht nun Kanal 0 innerhalb von Programmen zur Verfügung. Dadurch kann nun auch mit HmIP auf bestimmte Zustände des Gerätes reagiert werden (z. B. Sabotagekontakt, Batterie leer usw.)
+
+  [HMCCU2-1055] Stabilitätsverbesserung für HmIP
+
+  [HMCCU2-954] Integration HM-LC-Sw1-PCB (Funk-Schaltaktor 1-fach für Kleinspannung) Bausatz/ELV-Journal
+
+  [HMCCU2-961] Integration HM-LC-AO-SM (0 – 10V Aktor) Bausatz/ELV-Journal
+
+  [HMCCU2-887] Integration HM-LC-Sw2PBU-FM (Funk-Schaltaktor, 2-fach für Markenschalter) Bausatz/ELV-Journal
+
+- Fehlerbehebungen
+
+  [HMCCU2-1142] Cron-Job für cloudmatic check von 1 Minute auf 6 Stunden geändert
+
+  [HMCCU2-1135] Kommunikationsstörungen beim Hm-Sen-LI-O (Lichtsensor) behoben.
+
+  [HMCCU2-1116] Beim HM-Sec-Sir-WM war bei Programmaktionen „intern scharf“ und „extern scharf“ vertauscht.
+
+  [HMCCU2-1105] Bugfix für easy-smarthome – Den Benutzern wurden ihre Daten nach erfolgter Registrierung teilweise nicht angezeigt.
+
+  [HMCCU2-1093] Bei Schaltaktoren wurde das Profil der internen Gerätetaste bei erneutem Aufrufen der Konfiguration von „Treppenhauslicht“ in „Schalter Ein“ geändert.
+
 **2.19.9**
 - Erweiterungen / Verbesserungen
 
