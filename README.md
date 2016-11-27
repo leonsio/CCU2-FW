@@ -3,6 +3,78 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 
 # Changelog
 ---------
+**2.25.15**
+- Fehlerbehebungen
+
+  [HMCCU2-1257] Problem bei Verwendung von Systemvariablen innerhalb von Programmen behoben.
+
+  [HMCCU2-1256] Ein gewähltes Profil für einen Rolladenaktor wurde unter Umständen überschrieben.
+
+
+**2.25.14**
+- Fehlerbehebungen
+
+  [HMCCU2-1255] HmIP - Nutzung von Kanälen des Types KEY_TRANSMITTER (Fernbedienungen) innerhalb des Wenn-Zweiges ermöglichen.
+
+  [HMCCU2-1254] HmIP-ASIR - Ausblenden des Kanals 1, da hier keine Funktion
+
+  [HMCCU2-1253] Fehler beim Rückspielen eines CCU2-Backups behoben.
+
+**2.25.12**
+- Erweiterungen / Verbesserungen
+
+  [HMCCU2-1230] Integration OSRAM-Lightify
+
+  [HMCCU2-1190] WTH mit Fw >= 1.6 verhält sich nun wie ein WTH-2 (anlernen an HmIP-FALXXX möglich)
+
+  [HMCCU2-1174] Integration HmIP-PDT
+
+  [HMCCU2-1170] Integration PSM für PE, UK, IT, CH
+
+  [HMCCU2-1163] Integration HmIP-STH Integration HmIP-STHD
+
+  [HMCCU2-1147] Integration HM-LC-Ja1PBU-FM (Jalousieaktor mit Lamellensteuerung)
+
+  [HMCCU2-1140] Anzeige des Endes des Urlaubsmodus für HmIP eTRV, eTRV2, WTH u. WTH-2
+
+  [HMCCU2-1115] Integration HM-Sec-RHS-2 (Funk-Fenster-Drehgriffkontakt)
+
+  [HMCCU2-1104] Integration Hm-MOD-EM-8Bit (8-Bit Funk-Sendemodul)
+
+  [HMCCU2-1042] Integration HM-LC-Dim1T-DR
+
+  [HMCCU2-1026] Integrtion HmIP-MIOB
+
+  [HMCCU2-1022] Integration HmIP-FAL (FAL-24-6, FAL-24-10, FAL-230-6, FAL-230-10)
+
+  [HMCCU2-1014] Integration HmIP-BDT
+
+  [HMCCU2-1005] Integration HmIP-FSM/FSM16
+
+  [HMCCU2-1002] Integration HmIP-ASIR (Innensirene)
+
+  [HMCCU2-998] Integration HmIP-SMO(-A) (Bewegungsmelder, Außen)
+
+  [HMCCU2-995] Integration HmIP-RC8 (Fernbedienung, 8-Kanal)
+
+  [HMCCU2-993 Integration HmIP-WRC6 (Wandtaster, 6-fach)
+
+  [HMCCU2-988] Integration HmIP-SRH (Fenstergriffsensor)
+
+  [HMCCU2-985] Integration HmIP-BSM (Schaltaktor für Markenschalter, mit Leistungsmessung)
+
+  [HMCCU2-1244] Easymode für rudimentäre Lamellenverstellung der Funk-Rollladenaktoren ergänzt
+
+- Fehlerbehebungen
+
+  [HMCCU2-1168] Die Hysterese der Temperatur war bei direkten Verknüpfungen zwischen Wandthermostaten und Aktoren als Zweipunktreglung nur noch auf ganze Grad einstellbar. Nun sind 0.1 Grad-Schritte möglich.
+
+  [HMCCU2-1161] Bei Rolladenaktoren ließ sich beim Level kein Wert mit Nachkommastelle eingeben.
+
+  [HMCCU2-1078] Das Verhalten des Profils „Gewünschte Temperatur“ eines HmIP-WTH bei direktenVerknüpfungen ist je nach verwendeter Firmware u. U. leicht unterschiedlich. Die Profilbeschreibung der jeweiligen Firmwareversion wurde angepasst.
+
+  [HMCCU2-903] Bei der Erstellung einer direkten Verknüpfung zwischen einer HmIP-Fernbedienung und eines HmIP-Wandthermostaten, fehlte bei dem Profil MANU die Möglichkeit, die gewünschte Temperatur einzustellen.
+
 **2.21.10**
 - Erweiterungen / Verbesserungen
 
