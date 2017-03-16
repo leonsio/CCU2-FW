@@ -3,6 +3,16 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 
 # Changelog
 ---------
+**2.27.7**
+- Neue Geräte
+
+  [HMCCU2-1260] Integration Hm-Sen-MDIR-O-3 (Homematic Funk-Bewegungsmelder, außen)
+
+  [HMCCU2-1191] Integration HmIP-FDT (Homematic IP Dimmaktor Unterputz – Phasenabschnitt)
+
+  [HMCCU2-1173] Integration HmIP-PCBS (Homematic IP Schaltplatine)
+
+
 **2.25.15**
 - Fehlerbehebungen
 
