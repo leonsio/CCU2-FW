@@ -3,6 +3,19 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 
 # Changelog
 ---------
+
+**2.27.8**
+- Fehlerbehebungen
+
+  [HMCCU2-1342] Unter bestimmten Umständen wurden OSRAM-Lightify-Geräte doppelt angezeigt. Dieser Fehler wurde behoben.
+
+  [HMCCU2-1339] Fehler beim Aufrufen direkter Verknüpfungen behoben.
+  
+  [HMCCU2-1338] Die Controls zur Anzeige bestimmter Parameter wurden nur noch einzeilig dargestellt. Dadurch war der Wert bei langen Parameternamen nicht mehr lesbar.
+
+  [HMCCU2-1337] HmIP-STH/STHD – Zugriff auf die Konfigurationsparameter wieder ermöglicht.
+
+
 **2.27.7**
 - Neue Geräte
 
@@ -11,6 +24,75 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
   [HMCCU2-1191] Integration HmIP-FDT (Homematic IP Dimmaktor Unterputz – Phasenabschnitt)
 
   [HMCCU2-1173] Integration HmIP-PCBS (Homematic IP Schaltplatine)
+
+- Erweiterungen / Verbesserungen
+
+  [HMCCU2-1336] Sicherheitsrelevante Erweiterungen: 
+
+    * Firewall bei Systemstart starten 
+
+    * Directory Traversal Schwachstelle behoben 
+
+    * SSH Daemon erlaubt nur noch sichere Cipher und MACs 
+
+    * Weitere Ports in der firewall.conf eingetragen 
+
+    * Sicherheitslücke beim Prüfen auf gültige Session-ID behoben
+
+  [HMCCU2-1335] Konfigurationsparameter „Soft On/Off“ für dimmbare OSRAM-Lightify hinzugefügt. Hinweis: Damit dieser Parameter zur Verfügung steht, müssen diese Geräte aus dem System gelöscht und neu hinzugefügt werden (erneutes Suchen von Geräten).
+
+  [HMCCU2-1334] Unterstützung für OSRAM-Lightify Plug hinzugefügt.
+
+  [HMCCU2-1333] Unterstützung für OSRAM-Lightify Gardensport Mini RGB hinzugefügt.
+
+  [HMCCU2-1330] Manuelle Eingabe einer OSRAM-Lightify Gateway-IP ermöglicht.
+
+  [HMCCU2-1328] Direkte Werteingabe der RGB-Werte im Lightify-Farbauswahldialog ermöglicht.
+
+  [HMCCU2-1292] OSRAM Kopplung um Steuerung von Gruppen erweitert.
+
+  [HMCCU2-1323] Parameter Luftdruck für entsprechende Geräte (z. B. WDC7000) in Diagrammen nutzbar.
+
+  [HMCCU2-1302] Für neue HmIP Thermostat-Versionen wurde ein Konfigurationsparameter ein- geführt, der es ermöglicht, die Schaltzeitpunkte der Wochenprogramme im Auto-Modus für eine wählbare Zeit (max. 12 Std.) nicht zu berücksichtigen.
+
+  [HMCCU2-1282] Integration HmIP-FAL-X ab Firmwareversion 1.5 (Unterscheidung des Wärmebedarfs für Kessel- oder Pumpensteuerung). Bei der Aktualisierung der FAL auf diese Firmwareversion, muss das Gerät einmal ab- und wieder angelernt werden.
+
+  [HMCCU2-1281] Dynamische Routing-Funktionalität für den HmIP-PS/PSM ab Firmwareversion 2.x
+
+  [HMCCU2-1242] HmIP – Die Eingabefelder für KEY und SGTIN wurden getauscht und so den Angaben auf den Gerätestickern angepasst
+
+  [HMCCU2-1218] Der Jalousieaktor HM-LC-Ja1PBU-FM wird beim Anlernen direkt dem Gewerk Licht zugeordnet.
+
+  [HMCCU2-1111] In den Benutzereinstellungen kann gewählt werden, ob die Servicemeldung „Gerätekommunikation war gestört“ automatisch bestätigt wird. Diese Einstellung steht nur als Administrator zur Verfügung.
+
+  [HMCCU2-1048] HM-Sec-SIR-WM – Beim Erstellen einer direkten Verknüpfung unterscheidet die Link-Beschreibung nun zwischen internem und externem Alarm.
+
+  [HMCCU2-820] Unter dem Punkt „Systemsteuerung/Netzwerkeinstellungen“ gibt es die Möglichkeit, ein vom Benutzer aufgespieltes Zertifikat wieder zu löschen, ohne sich per SSH Zugang auf die Zentrale verschaffen zu müssen. Der entsprechende Button wird nur angezeigt, wenn auch tatsächlich ein Zertifikat vorhanden ist.
+
+- Fehlerbehebungen
+
+  [HMCCU2-1322] HmIP-MIOB – Die Einheit des Levels für den analogen Ausgang (Kanal 11) innerhalb von Programmen wurde auf % gesetzt. Dadurch ist der zulässige Wertebereich statt von 0.0 -1.0 auf 0 – 100% festgelegt. Damit die Änderung wirksam wird, muss das Gerät einmal ab- und wieder angelernt werden.
+
+  [HMCCU2-1317] Unterbindung direkter Verknüpfungen mit der internen Taste von HmIP- PS/PSM/PDT
+
+  [HMCCU2-1314] Filtern nach Interface/Kategorie HmIP in der Geräteliste ergänzt.
+
+  [HMCCU2-1297] HM-MOD-EM-8Bit – Die Nummerierung der Modusauswahl des Parameters „Datenübertragungsbedingungen“ wurde von 0 – 6 nach 1 – 7 geändert.
+
+  [HMCCU2-1293] HmIP-BDT (u. a.) fehlerhafte Auswertung der Pegelbegrenzung und der Einschaltdauer bei langem Tastendruck behoben.
+
+  [HMCCU2-1291] Link zur Hilfe zum Löschen des Browser-Caches angepasst.
+
+  [HMCCU2-1259] Die Bearbeitung direkter Verknüpfungen zwischen virtuellen Tasten und Rollladenaktoren ergänzt
+
+  [HMCCU2-1227] RFD beendete sich aufgrund von Speicherproblemen, wenn die Log-Datei des HM-Servers zu groß wurde.
+
+  [HMCCU2-1226] HmIP – Hinweis auf vorhandene Programme und Verknüpfungen beim Löschen von HmIP-Geräten ergänzt.
+
+  [HMCCU2-897] Unter Umständen kam es vor, dass die Bedienelemente einiger Dialoge
+(z. B. Zusatzsoftware) nicht mehr erreichbar waren, da sie außerhalb des Screens lagen. Diese Dialoge können nun einfach mit der Maus verschoben werden, so dass die Bedienelemente wieder zugänglich sind.
+
+  [HMCCU2-700] Testbutton für Rauchmelder-Teams entfernt.
 
 
 **2.25.15**
