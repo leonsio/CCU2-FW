@@ -4,6 +4,38 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 # Changelog
 ---------
 
+**2.29.18**
+- Neue Geräte
+
+  [HMCCU2-1368] Integration HmIP-PDT-UK (Dimmer-Steckdose – Phasenabschnitt (UK-Version))
+
+  [HMCCU2-1367] Integration HmIP-eTRV-UK (Heizkörperthermostat (UK-Version))
+
+  [HMCCU2-1350] Integration HmIP-SPI (Präsenzmelder – innen)
+
+  [HMCCU2-1349] Integration HmIP-BBL (Jalousieaktor für Markenschalter)
+
+  [HMCCU2-1348] Integration HmIP-FBL (Jalousieaktor für Unterputzmontage)
+
+  [HMCCU2-1347] Integration HmIP-BROLL (Rollladenaktor für Markenschalter)
+
+  [HMCCU2-1346] Integration HmIP-FROLL (Rollladenaktor für Unterputzmontage)
+
+  [HMCCU2-1345] Integration HmIP-MOD-OC8 (Schaltaktor mit Open Collector-Ausgang)
+
+  [HMCCU2-1301] Integration HmIP-SWDO-I (Fenster- und Türkontakt – verdeckten Einbau)
+
+  [HMCCU2-1274] Integration HmIP-BWTH / BWTH24 (Wandthermostat mit Schaltausgang)
+
+  [HMCCU2-1250] Integration HmIP-PCBS-BAT (Schaltplatine für Batteriebetrieb)
+
+  [HMCCU2-1206] Integration HmIP-SAM (Beschleunigungssensor)
+
+  [HMCCU2-1043] Integration HM-LC-DW-WM (Dual-White-LED Controller)
+
+für weitere Änderungen siehe http://www.eq-3.de/Downloads/Software/HM-CCU2-Firmware_Updates/HM-CCU2-2.29.18/HM-CCU2-Changelog.2.29.18.pdf
+
+
 **2.27.8**
 - Fehlerbehebungen
 
