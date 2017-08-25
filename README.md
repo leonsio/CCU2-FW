@@ -4,6 +4,18 @@ Archiv älterer CCU2 Firmware Versionen. Texte und Firmware Copyright by [eq-3](
 # Changelog
 ---------
 
+**2.29.22**
+- Fehlerbehebungen
+
+  [HMCCU2-1468] Die Kanalparamter für Kanal 4 des BBL/FBL wurden nicht übernommen, wenn die Einstellung „Modus vereinfachte Verknüpfungskonfiguration aktivieren“ aktiviert ist.
+
+  [HMCCU2-1459] Der Status einer Gruppe ohne Wandthermostat wurde nicht aktualisiert. Dieser Fehler wurde behoben.
+
+  [HMCCU2-1458] Fehler beim Aufruf der Kanalparameter des Hm-Sen-RD-O behoben
+
+  [HMCCU2-1456] Beim HM-LC-Ja1PBU-FM konnten unter bestimmten Umständen einmal geschlossene Lamellen nicht wieder geöffnet werden. Dieser Fehler wurde behoben.
+
+
 **2.29.18**
 - Neue Geräte
 
